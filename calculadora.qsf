@@ -1,0 +1,63 @@
+============================================================
+# DEVICE
+# ============================================================
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+
+# ============================================================
+# SWITCHES
+# ============================================================
+set_location_assignment PIN_N25 -to SW[9]
+set_location_assignment PIN_N26 -to SW[8]
+set_location_assignment PIN_P9 -to SW[7]
+set_location_assignment PIN_AE14 -to SW[6]
+set_location_assignment PIN_AF14 -to SW[5]
+set_location_assignment PIN_AD13 -to SW[4]
+set_location_assignment PIN_AC13 -to SW[3]
+set_location_assignment PIN_C13 -to SW[2]
+set_location_assignment PIN_B13 -to SW[1]
+set_location_assignment PIN_A13 -to SW[0]
+
+# ============================================================
+# HEX0
+# ============================================================
+set_location_assignment PIN_G12 -to HEX0[6]
+set_location_assignment PIN_A15 -to HEX0[5]
+set_location_assignment PIN_B6 -to HEX0[4]
+set_location_assignment PIN_H13 -to HEX0[3]
+set_location_assignment PIN_F13 -to HEX0[2]
+set_location_assignment PIN_F2 -to HEX0[1]
+set_location_assignment PIN_C15 -to HEX0[0]
+
+# ============================================================
+# HEX1
+# ============================================================
+set_location_assignment PIN_AA23 -to HEX1[6]
+set_location_assignment PIN_V2 -to HEX1[5]
+set_location_assignment PIN_AB12 -to HEX1[4]
+set_location_assignment PIN_AB3 -to HEX1[3]
+set_location_assignment PIN_AA3 -to HEX1[2]
+set_location_assignment PIN_AB13 -to HEX1[1]
+set_location_assignment PIN_Y13 -to HEX1[0]
+
+# ============================================================
+# HEX2
+# ============================================================
+set_location_assignment PIN_AA2 -to HEX2[6]
+set_location_assignment PIN_AB20 -to HEX2[5]
+set_location_assignment PIN_AB5 -to HEX2[4]
+set_location_assignment PIN_V10 -to HEX2[3]
+set_location_assignment PIN_Y10 -to HEX2[2]
+set_location_assignment PIN_AA16 -to HEX2[1]
+set_location_assignment PIN_AA15 -to HEX2[0]
+
+# ============================================================
+# HEX3
+# ============================================================
+set_location_assignment PIN_U1 -to HEX3[6]
+set_location_assignment PIN_U2 -to HEX3[5]
+set_location_assignment PIN_AA7 -to HEX3[4]
+set_location_assignment PIN_AA6 -to HEX3[3]
+set_location_assignment PIN_Y4 -to HEX3[2]
+set_location_assignment PIN_V8 -to HEX3[1]
+set_location_assignment PIN_Y8 -to HEX3[0]
